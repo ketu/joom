@@ -1,0 +1,14 @@
+{
+    "name": "veda/joom",
+    "description": "a simple php client for joom merchant api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ketu.lai",
+            "email": "ketu.lai@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
