@@ -10,5 +10,28 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "veda/utils": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Veda\\Joom\\": "src/Veda/Joom"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Veda\\Joom\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
